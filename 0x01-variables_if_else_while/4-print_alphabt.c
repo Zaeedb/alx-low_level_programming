@@ -3,8 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- * get a random number and check its
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
