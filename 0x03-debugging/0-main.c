@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - tests the positive_or_negative() function with 0 as input
+ * main - Test function for positive or negative
  *
  * Return: Always 0
  */
+
 int main(void)
 {
+int i;
 
-	int num = 0;
+i = 0;
+positive_or_negative(i);
 
-	printf("Testing positive_or_negative() function with 0:\n");
-	positive_or_negative(num);
-	return (0);
+return (0);
 }
 
